@@ -1,16 +1,8 @@
 const { chromium } = require('playwright');
-
 const login = 'demobank';
 const password = '123456';
 const smsCode = '1234';
 const incorrectEmailMessage = 'Введен некорректный email';
-
-//describe('my beverage', () => {
-//  test('is delicious', () => {
-//    var myNumber = 5;
-//    expect(myNumber).toBe(5);
-//  })
-//});
 
 describe('Launch Browser', () => {
   test('Open isfront.ru', async () => {
